@@ -549,7 +549,7 @@ angular.module( 'isteven-multi-select', ['ng'] ).directive( 'istevenMultiSelect'
                         if (tempMaxLabels > 0) {
                             $scope.varButtonLabel += ', ... ';
                         }
-                        $scope.varButtonLabel += $scope.outputModel.length + ' Options Selected';                        
+                        $scope.varButtonLabel += $scope.outputModel.length + ' Option(s) Selected';                        
                     }
                 }
                 $scope.varButtonLabel = $sce.trustAsHtml( $scope.varButtonLabel + '<span class="caret"></span>' );                
